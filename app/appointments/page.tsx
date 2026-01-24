@@ -166,8 +166,11 @@ function AppointmentsPage() {
                     <Image
                       src={appointment.doctorImageUrl}
                       alt={appointment.doctorName}
-                      className="size-10 rounded-full"
+                      width={40}
+                      height={40}
+                      className="rounded-full"
                     />
+
                   </div>
                   <div>
                     <p className="font-medium text-sm">{appointment.doctorName}</p>
